@@ -1,0 +1,98 @@
+
+body {
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background: rgba(0, 0, 0, 0.1) url(my_login.png);
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: center;
+    font-family: sans-serif;
+}
+.mean {
+    background: rgba(0, 0, 0, 0.3);
+    margin-left: 300px;
+    margin-top: 100px;
+border-radius: 30px;
+    width: 400px;
+    text-align: center;
+    height: 480px;
+    /* border-radius: 30px; */
+}
+.mean:hover{
+    /* scale: 1.1; */
+    transition: 0.21s;
+    box-shadow: 4px 10px 11px 10px rgba(29, 39, 41, 0.753);
+}
+.sign-up-form {
+    /* text-shadow: 0 0 2px rgb(15, 206, 31); */
+    width: 350px;
+    box-shadow: 0 10 30 3px rgb(0, 0, 0, 0.3);
+    margin: 2% ;
+    padding: 20px;
+    text-align: center;
+}
+.sign-up {
+    border-radius:10px;
+    border: 2px solid rgb(57, 55, 55);
+    outline: none;
+    background-color: transparent;
+    font-size: 18px;
+    cursor: pointer;
+    height: 50px;
+    width: 300px;
+    padding: 10px;
+    margin-top: 0;
+}
+.sign-up:hover{
+    background-color: #002642;
+    color: white;
+    right: 0px;
+    border: black;
+    transition: 0.821s;
+    box-shadow: 2px 4px 7px 6px rgba(14, 19, 20, 0.753);
+}
+hr{
+
+   margin: 30px;
+   width: 250px;
+}
+.or{
+    /* overflow: hidden; */
+color:black;
+text-align: center;
+font-size:30px;
+    margin-top: -45PX;
+}
+.sign-up-bton {
+    height: 50px;
+    font-size: 20px;
+    border-radius: 15px;
+    /* outline: none; */
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 10px;
+    width: 290px;
+}
+.sign-up-bton:hover{
+    scale: .9;
+    /* border: 3px solid rgb(236, 190, 105); */
+    transition: 0.321s;
+    box-shadow: 2px 4px 7px 6px rgba(29, 39, 41, 0.753);
+}
+.sign-up-bton1 {
+    border-radius: 10px;
+    height: 33px;
+    width: 220px;
+    /* color:#002642; */
+    border: 1px solid #002642;
+    background-color: #2a6f97;
+    /* background-color: transparent; */
+}
+
+h1{
+    /* padding-top: 120px; */
+    margin-left: 400px;
+}
